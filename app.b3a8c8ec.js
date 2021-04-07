@@ -852,7 +852,7 @@ function () {
 }();
 
 new App(document.querySelector('.document'), document.body);
-},{"./components/page/item/image.js":"dist/components/page/item/image.js","./components/page/page.js":"dist/components/page/page.js","./components/page/item/note.js":"dist/components/page/item/note.js","./components/page/item/todo.js":"dist/components/page/item/todo.js","./components/page/item/video.js":"dist/components/page/item/video.js","./components/dialog/dialog.js":"dist/components/dialog/dialog.js","./components/input/media-input.js":"dist/components/input/media-input.js","./components/input/text-input.js":"dist/components/input/text-input.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./components/page/item/image.js":"dist/components/page/item/image.js","./components/page/page.js":"dist/components/page/page.js","./components/page/item/note.js":"dist/components/page/item/note.js","./components/page/item/todo.js":"dist/components/page/item/todo.js","./components/page/item/video.js":"dist/components/page/item/video.js","./components/dialog/dialog.js":"dist/components/dialog/dialog.js","./components/input/media-input.js":"dist/components/input/media-input.js","./components/input/text-input.js":"dist/components/input/text-input.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -880,7 +880,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50733" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56168" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -1056,5 +1056,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../node_modules/parcel-bundler/src/builtins/hmr-runtime.js","dist/app.js"], null)
+},{}]},{},["node_modules/parcel-bundler/src/builtins/hmr-runtime.js","dist/app.js"], null)
 //# sourceMappingURL=/app.b3a8c8ec.js.map
